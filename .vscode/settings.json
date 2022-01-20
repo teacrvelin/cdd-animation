@@ -1,0 +1,22 @@
+{
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css/"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css/"
+        }
+    ],
+    "liveSassCompile.settings.includeItems": [
+        // "/sass/main.scss"
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "diffEditor.ignoreTrimWhitespace": false
+}
